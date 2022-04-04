@@ -1,0 +1,743 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard">
+    <Prefix name="" IRI="http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">Most relevant terms:  Budget, History, Director, Season i Showrunner</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">Reuse of existing analogies:
+https://dbpedia.org/page/Star_Trek
+https://dbpedia.org/page/Star_Trek:_Picard</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">Title: Star Trek Picard
+Author :Eloi Arjona</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Actors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Budget"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Director"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Extras"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#General_Information"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Human_capital"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Illumination"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Locker_room"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Make-up"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Microphones"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Number_chapters"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Platform"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Porduction_information"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Producer_company"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recording_camera"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recording_studio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#STP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Season"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Season_number"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Showrunner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Staff"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stage_design"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Storyboard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Technical_support"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Technical_team"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Video_editor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Year_issue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#literary_script"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsNecessaryRecord"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsProduced"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsWritten"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isHiredBy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Age"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Description"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Id"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Year"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Camara1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dir1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Makeup1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PatrickStewart"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Writer1"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Actors"/>
+        <Class IRI="#Staff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Budget"/>
+        <Class IRI="#STP"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Director"/>
+        <Class IRI="#Porduction_information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Extras"/>
+        <Class IRI="#Staff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#General_Information"/>
+        <Class IRI="#STP"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human_capital"/>
+        <Class IRI="#Recording_studio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Illumination"/>
+        <Class IRI="#Technical_team"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Locker_room"/>
+        <Class IRI="#Recording_studio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Make-up"/>
+        <Class IRI="#Human_capital"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Microphones"/>
+        <Class IRI="#Technical_team"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Number_chapters"/>
+        <Class IRI="#Season"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Platform"/>
+        <Class IRI="#Season"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Porduction_information"/>
+        <Class IRI="#Budget"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Producer_company"/>
+        <Class IRI="#General_Information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Recording_camera"/>
+        <Class IRI="#Technical_team"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Recording_studio"/>
+        <Class IRI="#Director"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Season"/>
+        <Class IRI="#General_Information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Season_number"/>
+        <Class IRI="#Season"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Showrunner"/>
+        <Class IRI="#Budget"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Staff"/>
+        <Class IRI="#Director"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stage_design"/>
+        <Class IRI="#Recording_studio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Storyboard"/>
+        <Class IRI="#Showrunner"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Technical_support"/>
+        <Class IRI="#Human_capital"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Technical_team"/>
+        <Class IRI="#Recording_studio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Video_editor"/>
+        <Class IRI="#Human_capital"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Year_issue"/>
+        <Class IRI="#Season"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#literary_script"/>
+        <Class IRI="#Showrunner"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Locker_room"/>
+        <Class IRI="#Stage_design"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Number_chapters"/>
+        <Class IRI="#Season_number"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Recording_camera"/>
+        <NamedIndividual IRI="#Camara1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Director"/>
+        <NamedIndividual IRI="#Dir1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Make-up"/>
+        <NamedIndividual IRI="#Makeup1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Actors"/>
+        <NamedIndividual IRI="#PatrickStewart"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHiredBy"/>
+        <NamedIndividual IRI="#Camara1"/>
+        <NamedIndividual IRI="#Dir1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHiredBy"/>
+        <NamedIndividual IRI="#Makeup1"/>
+        <NamedIndividual IRI="#Dir1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHiredBy"/>
+        <NamedIndividual IRI="#PatrickStewart"/>
+        <NamedIndividual IRI="#Dir1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHiredBy"/>
+        <NamedIndividual IRI="#Writer1"/>
+        <NamedIndividual IRI="#Dir1"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="#Camara1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Description"/>
+        <NamedIndividual IRI="#Camara1"/>
+        <Literal>It is the first camera</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Camara1"/>
+        <Literal>Edu</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="#Dir1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Description"/>
+        <NamedIndividual IRI="#Dir1"/>
+        <Literal>Recording manager</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Dir1"/>
+        <Literal>David</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="#Makeup1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Description"/>
+        <NamedIndividual IRI="#Makeup1"/>
+        <Literal>Makeup 1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Makeup1"/>
+        <Literal>Laura</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="#PatrickStewart"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">82</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Description"/>
+        <NamedIndividual IRI="#PatrickStewart"/>
+        <Literal>Protagonist</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#PatrickStewart"/>
+        <Literal>Patrick Stewart</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="#Writer1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Description"/>
+        <NamedIndividual IRI="#Writer1"/>
+        <Literal>Head Writer</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Writer1"/>
+        <Literal>Jhon</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isHiredBy"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsNecessaryRecord"/>
+        <Class IRI="#STP"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsProduced"/>
+        <Class IRI="#STP"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsWritten"/>
+        <Class IRI="#Season"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isHiredBy"/>
+        <Class IRI="#Recording_studio"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsNecessaryRecord"/>
+        <Class IRI="#Budget"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsProduced"/>
+        <Class IRI="#Director"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsProduced"/>
+        <Class IRI="#Producer_company"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsWritten"/>
+        <Class IRI="#Showrunner"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isHiredBy"/>
+        <Class IRI="#Director"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Age"/>
+        <Class IRI="#Actors"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Age"/>
+        <Class IRI="#Director"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Age"/>
+        <Class IRI="#Extras"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Age"/>
+        <Class IRI="#Make-up"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Age"/>
+        <Class IRI="#Showrunner"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Age"/>
+        <Class IRI="#Technical_support"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Age"/>
+        <Class IRI="#Video_editor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Description"/>
+        <Class IRI="#Illumination"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Description"/>
+        <Class IRI="#Locker_room"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Description"/>
+        <Class IRI="#Make-up"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Description"/>
+        <Class IRI="#Microphones"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Description"/>
+        <Class IRI="#Producer_company"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Description"/>
+        <Class IRI="#Recording_camera"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Description"/>
+        <Class IRI="#Season"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Description"/>
+        <Class IRI="#Showrunner"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Description"/>
+        <Class IRI="#Storyboard"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Description"/>
+        <Class IRI="#Technical_support"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Description"/>
+        <Class IRI="#Technical_team"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Description"/>
+        <Class IRI="#Video_editor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Description"/>
+        <Class IRI="#literary_script"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Id"/>
+        <Class IRI="#Illumination"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Id"/>
+        <Class IRI="#Make-up"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Id"/>
+        <Class IRI="#Microphones"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Id"/>
+        <Class IRI="#Recording_camera"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Id"/>
+        <Class IRI="#Technical_support"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Id"/>
+        <Class IRI="#Video_editor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Name"/>
+        <Class IRI="#Director"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Name"/>
+        <Class IRI="#Human_capital"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Name"/>
+        <Class IRI="#Producer_company"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Name"/>
+        <Class IRI="#Recording_studio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Name"/>
+        <Class IRI="#Season"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Name"/>
+        <Class IRI="#Showrunner"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Name"/>
+        <Class IRI="#Staff"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Name"/>
+        <Class IRI="#Technical_team"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Year"/>
+        <Class IRI="#Year_issue"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Age"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Description"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Id"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Year"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Actors</IRI>
+        <Literal>Actors of the series</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Budget</IRI>
+        <Literal>Serie budget</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Director</IRI>
+        <Literal>Information that depends on the director of the series</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Extras</IRI>
+        <Literal>Extras of the series</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#General_Information</IRI>
+        <Literal>General Information of Serie</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Human_capital</IRI>
+        <Literal>Human capital that the series</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Illumination</IRI>
+        <Literal>Lighting available</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IsNecessaryRecord</IRI>
+        <Literal>The budget is necessary to record the series</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IsProduced</IRI>
+        <Literal>The STP is produced by the director  and producer company</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IsWritten</IRI>
+        <Literal>Seasons are written by the showrunner</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Locker_room</IRI>
+        <Literal>Locker_room information</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Make-up</IRI>
+        <Literal>Make -up information</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Microphones</IRI>
+        <Literal>Available microfinishes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PatrickStewart</IRI>
+        <Literal>https://es.dbpedia.org/page/Patrick_Stewart</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Platform</IRI>
+        <Literal>Platform where Amazon prime is currently broadcast</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Porduction_information</IRI>
+        <Literal>Serie production information</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Producer_company</IRI>
+        <Literal>Paramount</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Recording_camera</IRI>
+        <Literal>Recording camera information</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Recording_studio</IRI>
+        <Literal>Recording studio information</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#STP</IRI>
+        <Literal>STP is a diminutive of Star Trek Picard</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Season</IRI>
+        <Literal>Information of the seasons</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Showrunner</IRI>
+        <Literal>Information that depends on the showrunner of the series</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Staff</IRI>
+        <Literal>Actors and Extras</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Stage_design</IRI>
+        <Literal>Statge design information</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Storyboard</IRI>
+        <Literal>Storyboard information</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Technical_support</IRI>
+        <Literal>Technical suport team information</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Technical_team</IRI>
+        <Literal>Technical tram information</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Video_editor</IRI>
+        <Literal>video editor team information</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isHiredBy</IRI>
+        <Literal>The director will tell the recording studio</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#literary_script</IRI>
+        <Literal>literary script information</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>owl:Thing</AbbreviatedIRI>
+        <Literal>General class</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
